@@ -1,5 +1,5 @@
 # Info
-Name: Lucas Geurtjens
+Name: Lucas Geurtjens  
 sNumber: s5132841
 
 ## NOTE:
