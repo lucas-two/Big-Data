@@ -597,8 +597,8 @@ function showMap(dataSet) {
 
 	slider.oninput = function () {
 		// TODO
-		// currentYear = ;
-		// output.innerHTML = ;
+		currentYear = slider.value;
+		output.innerHTML = slider.value;
 
 		if (currentTap == "Bubble")
 			translateAll(centerBBox);
@@ -830,7 +830,7 @@ function getCercle(coordinate, r) {
 		p0 = p1;
 	}
 
-	var radius = 10;
+	var radius = 5;
 	var centroid = d3.polygonCentroid(polygon);
 	var angleOffset = -2 * Math.PI;
 	var angle = 0;
